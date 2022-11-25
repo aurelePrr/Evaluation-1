@@ -10861,6 +10861,7 @@ textarea.form-control-lg {
 .body {
   background: linear-gradient(to left, #11377e, #0b2555);
   color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .body a {
   color: white;
@@ -10897,7 +10898,6 @@ footer {
 }
 footer a {
   margin-right: 8px;
-  font-size: 0.1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
