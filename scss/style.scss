@@ -1,0 +1,13 @@
+@use "custom";
+
+// IMPORT COMPONENTS
+
+@use 'components/mixins.scss';
+
+// IMPORT THE SECTIONS 
+
+@use 'sections/home.scss';
+@use 'sections/header';
+@use 'sections/Evenements';
+
+

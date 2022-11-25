@@ -1,0 +1,24 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+.body{
+    @include gradient;
+    color: white;
+    a {
+        color: white
+    }
+}
+
+.menu{
+    a{
+        padding-right: 25px;
+    }
+}
+.dropdown-menu{
+    a{
+        color: $primary;
+        font-weight: bold;
+    }
+}
+
+

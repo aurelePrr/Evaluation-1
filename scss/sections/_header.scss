@@ -1,0 +1,7 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+
+.headLine{
+    @include secondary-gradient;
+}
