@@ -10798,6 +10798,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media screen and (max-width: 1200px) {
+  .btn-contact {
+    display: none;
+  }
+}
 .btn-contact {
   position: relative;
   background-color: white;
