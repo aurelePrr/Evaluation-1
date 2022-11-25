@@ -5,23 +5,7 @@ $blue-dark: #0b2555;
 $primary: $blue-light;
 $secondary: $blue-dark;
 
-// SPACERS OVERRIDES
-$spacer: 1rem !default;
-$spacers: (
-  0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
-  6: $spacer *3.5,
-  7: $spacer *4,
-  8: $spacer *6,
-  9: $spacer *8,
-  10: $spacer *10,
-);
 
-// FONT-SIZE OVERRIDES
 $display-font-sizes: (
   1: 5rem,
   2: 4.5rem,
@@ -29,10 +13,10 @@ $display-font-sizes: (
   4: 3.5rem,
   5: 3rem,
   6: 2.5rem,
-  7: 2rem,
-  8: 0.95rem,
-  9: 0.70rem,
-  10: 0.5rem,
+  7: 1.5rem,
+  8 : 0.90rem,
+  9 : 0.70rem,
+  10 : 0.5rem
 );
 
 // IMPORT BOOOTSTRAP 5 

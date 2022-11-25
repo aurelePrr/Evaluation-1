@@ -1,3 +1,6 @@
 @use '../custom' as *;
 @use '../components/mixins.scss' as *;
 
+.card{
+    width: 18rem;
+}

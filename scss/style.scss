@@ -3,11 +3,13 @@
 // IMPORT COMPONENTS
 
 @use 'components/mixins.scss';
+@use 'components/buttons';
 
 // IMPORT THE SECTIONS 
 
 @use 'sections/home.scss';
 @use 'sections/header';
 @use 'sections/Evenements';
+@use 'sections/footer';
 
 

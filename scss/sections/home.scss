@@ -5,18 +5,25 @@
     @include gradient;
     color: white;
     a {
-        color: white
+        color: white;
+        text-decoration: none;
+        
     }
 }
 
 .menu{
-    a{
-        padding-right: 25px;
+    li{
+        padding-right: 2rem;
+        a{
+            text-transform: capitalize;
+            font-weight: 600;
+        }
     }
 }
+
 .dropdown-menu{
     a{
-        color: $primary;
+        color: $secondary;
         font-weight: bold;
     }
 }

@@ -1,7 +1,11 @@
 @use '../custom' as *;
 @use '../components/mixins.scss' as *;
 
-
+nav{
+    img{
+        height: 100px;
+    }
+}
 .headLine{
     @include secondary-gradient;
 }

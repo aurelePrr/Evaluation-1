@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
     <title>L'escrime Choletaise</title>
 </head>
 <body class="body">
+    <!--START HEADER-->
     <header>
         <!--START NAVBAR-->
-        <nav class="navbar navbar-expand-lg border-bottom">
+        <nav class="navbar navbar-expand-lg border-bottom border-warning">
             <div class="container">
-                <a class="navbar-brand" href="#"><img style="height: 100px;" src="./images/fencing.png" alt="logo"></a>
+                <a class="navbar-brand" href="#">
+                    <img src="./images/fencing.png" alt="logo">
+                </a>
                 <button class="navbar-toggler"
                      type="button"
                      data-bs-toggle="collapse"
@@ -22,7 +26,7 @@
                      aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="menu collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse justify-content-end menu" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Accueil</a>
@@ -32,9 +36,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Les cours</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Les horaires</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">S'inscrire</a>
@@ -50,18 +51,29 @@
                             </ul>
                         </li>
                     </ul>
+                    <a href="tel:+33667828338" class="rounded-pill btn-contact">+33 (0)6 67 82 83 38
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                              </svg>
+                        </span>
+                    </a>
                 </div>
             </div>
         </nav>
-        <!--END OF NAVBAR-->
-        <div class="headLine text-center p-4 border-bottom">
-            <button type="button" class="rounded-pill btn btn-primary pt-2 pb-2 ps-4 pe-4">INSCRIVEZ-VOUS!</button>
+        <!--END OF NAVBAR-->  
+
+        <div class="headLine text-center p-4 border-bottom border-warning">
+            <button type="button" class="rounded-pill text-white fs-4 submit-btn">INSCRIVEZ-VOUS!</button>
         </div>
     </header>
+     <!--END OF HEADER-->
+
+    <!--START MAIN-->
     <main class="main container text-center text-white pt-4">
         <article>
-            <h1>Venez découvrir le club de l'escrime choletais</h1>
-            <img class="img-fluid" src="./images/escrimeur.jpg" alt="escrimeur">
+            <h1>Venez découvrir le club de l'escrime choletaise</h1>
+            <img class="img-fluid mt-4" src="./images/escrimeur.jpg" alt="escrimeur">
             <p class="mt-4">C'est le maitre d'armes André Van Linthout qui est charger de dispenser les <a href="cours.html">cours</a> des grands et des
                 moins grands. Il se fera un plaisir de vous accueillir si vous souhaiter venir voir au club comment les 
                 <a href="cours.html">séances</a> se déroulent.
@@ -69,6 +81,42 @@
             <p>Nos <a href="inscriptions.html">inscriptions</a> se déroulent toute l'année sans limite d'age, venez nombreux!</p>
         </article>
     </main>
+    <!--ENF OF MAIN-->
+
+    <!--START FOOTER-->
+    <footer>
+        <nav class="container-fluid navbar-expand border-top border-warning mt-5">
+            <ul class="navbar-nav d-flex justify-content-center flex-wrap gap-1">
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap" href="#">A Propos |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Conditions générales d'utilisation |</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link" href="#">Politique relative aux cookies |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Politique de copyright |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Politique de confidentialité |</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link" href="#">Accessibilité |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mentions légales |</a>
+                </li>
+            </ul>    
+        </nav>
+        <div class="watermark d-flex justify-content-center mt-2">@ L'escrime choletaise - Tous droits réservés</div>
+    </footer>
+    <!--END OF FOOTER-->
+
     <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
    
