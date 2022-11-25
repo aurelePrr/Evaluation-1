@@ -1,0 +1,15 @@
+@use '../custom' as *;
+
+// GRADIENT MIXIN
+@mixin gradient {
+        background: linear-gradient(to left, rgba($primary, 1), rgba($secondary, 1));
+}
+
+@mixin reverse-gradient {
+        background: linear-gradient(to right, rgba($primary, 1), rgba($secondary, 1));
+}
+
+
+@mixin secondary-gradient {
+        background: radial-gradient(closest-side, rgba($primary, 1), rgba($secondary, 1), rgba($primary, 1));
+}
