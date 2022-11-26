@@ -10873,6 +10873,10 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 
+nav img {
+  height: 100px;
+}
+
 .menu li {
   padding-right: 2rem;
 }
@@ -10884,10 +10888,6 @@ textarea.form-control-lg {
 .dropdown-menu a {
   color: #0b2555;
   font-weight: bold;
-}
-
-nav img {
-  height: 100px;
 }
 
 .headLine {
